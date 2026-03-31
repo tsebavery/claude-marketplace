@@ -16,7 +16,7 @@
         "repo": "tsebavery/recon-plugin"
       },
       "version": "1.0.0",
-      "author": "tsebavery",
+      "author": { "name": "tsebavery" },
       "homepage": "https://github.com/tsebavery/recon-plugin",
       "repository": "https://github.com/tsebavery/recon-plugin",
       "license": "MIT",
