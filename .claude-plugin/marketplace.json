@@ -1,0 +1,41 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tsebavery-marketplace",
+  "owner": {
+    "name": "tsebavery"
+  },
+  "metadata": {
+    "description": "Industrial automation plugins for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "device-recon",
+      "description": "Industrial device reconnaissance toolkit. Systematic research, documentation, and reverse-engineering of any Ethernet-connected industrial device.",
+      "source": {
+        "source": "github",
+        "repo": "tsebavery/recon-plugin"
+      },
+      "version": "1.0.0",
+      "author": "tsebavery",
+      "homepage": "https://github.com/tsebavery/recon-plugin",
+      "repository": "https://github.com/tsebavery/recon-plugin",
+      "license": "MIT",
+      "category": "domain-specific",
+      "keywords": [
+        "industrial-automation",
+        "ethernet-ip",
+        "io-link",
+        "modbus",
+        "opc-ua",
+        "reverse-engineering",
+        "ics-security",
+        "ot-security"
+      ],
+      "tags": [
+        "industrial-automation",
+        "ot-security",
+        "device-research"
+      ]
+    }
+  ]
+}
