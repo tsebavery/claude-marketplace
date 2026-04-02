@@ -15,7 +15,7 @@
         "source": "url",
         "url": "https://github.com/tsebavery/recon-plugin.git"
       },
-      "version": "6.2.0",
+      "version": "6.3.0",
       "author": { "name": "tsebavery" },
       "homepage": "https://github.com/tsebavery/recon-plugin",
       "repository": "https://github.com/tsebavery/recon-plugin",
