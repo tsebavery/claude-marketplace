@@ -5,7 +5,7 @@
     "name": "tsebavery"
   },
   "metadata": {
-    "description": "Industrial automation plugins for Claude Code"
+    "description": "Claude Code plugins by tsebavery — industrial automation and workflow tooling"
   },
   "plugins": [
     {
@@ -35,6 +35,39 @@
         "industrial-automation",
         "ot-security",
         "device-research"
+      ]
+    },
+    {
+      "name": "readiness",
+      "description": "Portable Claude Code readiness assessment for any codebase. Inventories the repo, fetches current best practices live, and produces an actionable upgrade plan with a setup script.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tsebavery/project-readiness-plugin.git"
+      },
+      "version": "0.2.0",
+      "author": {
+        "name": "Joshua Stearns",
+        "email": "joshua.d.stearns@gmail.com"
+      },
+      "homepage": "https://github.com/tsebavery/project-readiness-plugin",
+      "repository": "https://github.com/tsebavery/project-readiness-plugin",
+      "license": "MIT",
+      "category": "workflow",
+      "keywords": [
+        "readiness",
+        "assessment",
+        "audit",
+        "onboarding",
+        "best-practices",
+        "orchestration",
+        "agents",
+        "skills",
+        "plugins"
+      ],
+      "tags": [
+        "workflow",
+        "assessment",
+        "onboarding"
       ]
     }
   ]
