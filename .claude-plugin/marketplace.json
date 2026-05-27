@@ -39,12 +39,12 @@
     },
     {
       "name": "readiness",
-      "description": "Portable Claude Code readiness assessment for any codebase. Inventories the repo, fetches current best practices live, and produces an actionable upgrade plan with a setup script.",
+      "description": "Portable Claude Code readiness pipeline. Four-phase audit (preflight → assess → docs → code) with SHA-gated orchestration, fix lists, suppressions, and per-project profiles. Inventories the repo, fetches current best practices live, audits docs and code against versioned rule catalogs, and produces actionable upgrade plans.",
       "source": {
         "source": "url",
         "url": "https://github.com/tsebavery/project-readiness-plugin.git"
       },
-      "version": "0.4.1",
+      "version": "1.0.0",
       "author": {
         "name": "Joshua Stearns",
         "email": "joshua.d.stearns@gmail.com"
@@ -62,12 +62,18 @@
         "orchestration",
         "agents",
         "skills",
-        "plugins"
+        "plugins",
+        "docs-audit",
+        "code-audit",
+        "pipeline",
+        "gates"
       ],
       "tags": [
         "workflow",
         "assessment",
-        "onboarding"
+        "onboarding",
+        "pipeline",
+        "audit"
       ]
     }
   ]
