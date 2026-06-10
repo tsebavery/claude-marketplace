@@ -1,0 +1,16 @@
+# Portfolio metadata for audit-hub. Hand-curated knowledge that survives data refreshes.
+# Schema: scope (req), status (req), roadmap, relationships, tags.
+scope: Claude Code plugin marketplace by tsebavery aggregating industrial-automation and workflow tooling
+  plugins.
+status: active
+roadmap:
+- done: Published marketplace listing device-recon and readiness, with ongoing version bumps (readiness
+    v1.1.1, device-recon v7.0.0).
+relationships:
+  related:
+  - recon-plugin
+  - project-readiness-plugin
+tags:
+- claude-code
+- marketplace
+- plugins
