@@ -116,6 +116,41 @@
         "network-switch",
         "device-research"
       ]
+    },
+    {
+      "name": "xelity-switch",
+      "description": "Spec-driven MCP toolkit for Murrelektronik Xelity / libCWebUI managed industrial switches. Point-and-read capability discovery over the device's own REST catalog, deterministic full-device snapshot + structural diff, PROFINET-DCP (Layer-2) discovery and IP/name addressing, real firmware flashing, and live per-port WebSocket status/statistics — exposed as an MCP server (FastMCP) plus slash commands and skills. Designed to survive firmware updates without code changes; destructive operations (flash/config-write) are bench/lab devices only.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/tsebavery/xelity-switch-mcp.git"
+      },
+      "version": "0.1.0",
+      "author": {
+        "name": "tsebavery"
+      },
+      "homepage": "https://github.com/tsebavery/xelity-switch-mcp",
+      "repository": "https://github.com/tsebavery/xelity-switch-mcp",
+      "license": "MIT",
+      "category": "domain-specific",
+      "keywords": [
+        "mcp",
+        "industrial-automation",
+        "managed-switch",
+        "xelity",
+        "murrelektronik",
+        "libcwebui",
+        "profinet",
+        "profinet-dcp",
+        "snapshot",
+        "diff",
+        "firmware",
+        "network"
+      ],
+      "tags": [
+        "industrial-automation",
+        "network-switch",
+        "mcp-server"
+      ]
     }
   ]
 }
