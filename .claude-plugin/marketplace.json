@@ -16,7 +16,9 @@
         "url": "https://github.com/tsebavery/recon-plugin.git"
       },
       "version": "7.0.0",
-      "author": { "name": "tsebavery" },
+      "author": {
+        "name": "tsebavery"
+      },
       "homepage": "https://github.com/tsebavery/recon-plugin",
       "repository": "https://github.com/tsebavery/recon-plugin",
       "license": "MIT",
@@ -78,12 +80,12 @@
     },
     {
       "name": "switch-recon",
-      "description": "Industrial managed-switch reconnaissance toolkit. 12-phase pipeline (intake, research, web-UI crawl, scan-discovery, scan-deep, test-plan, test-execute, security-analysis, audit-quality, docs, code, package) for managed Ethernet switches: SNMP v1/v2c/v3 full-MIB walk, SSH/CLI automation, HTTP/HTTPS web-UI + REST crawl, NETCONF/RESTCONF/gNMI, L2 discovery (LLDP/STP/VLAN/LACP/MAC-FDB), and PROFINET DCP + EtherNet/IP CIP identity. Vendor-agnostic; generates Mermaid diagrams, a file://-safe HTML config browser, an MCP server, a CLI, and a Rust crate. Lab/test devices only.",
+      "description": "Industrial managed-switch reconnaissance toolkit. Read-only preflight (host-NIC/route sanity, L2 discovery, firmware-version check) and gated IP provisioning (PROFINET-DCP Set-IP / DHCP), then a 12-phase pipeline (intake, research, web-UI crawl, scan-discovery, scan-deep, test-plan, test-execute, security-analysis, audit-quality, docs, code, package) for managed Ethernet switches: SNMP v1/v2c/v3 full-MIB walk, SSH/CLI automation, HTTP/HTTPS web-UI + REST crawl, NETCONF/RESTCONF/gNMI, L2 discovery (LLDP/STP/VLAN/LACP/MAC-FDB), and PROFINET DCP + EtherNet/IP CIP identity. Vendor-agnostic; generates Mermaid diagrams, a file://-safe HTML config browser, an MCP server, a CLI, and a Rust crate. Lab/test devices only.",
       "source": {
         "source": "url",
         "url": "https://github.com/tsebavery/switch-recon-plugin.git"
       },
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "tsebavery"
       },
