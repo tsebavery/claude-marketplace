@@ -14,7 +14,6 @@ claude /plugin marketplace add tsebavery/claude-marketplace
 | Plugin | Description |
 |--------|-------------|
 | [device-recon](https://github.com/tsebavery/recon-plugin) | Industrial device reconnaissance toolkit — web UI crawling, protocol discovery, descriptor parsing, OT-safe security auditing |
-| [readiness](https://github.com/tsebavery/project-readiness-plugin) | Portable Claude Code readiness assessment — inventories any repo, fetches current best practices live, produces an actionable upgrade plan |
 
 ### Install a plugin
 

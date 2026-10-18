@@ -40,45 +40,6 @@
       ]
     },
     {
-      "name": "readiness",
-      "description": "Portable Claude Code readiness pipeline. Four-phase audit (preflight → assess → docs → code) with SHA-gated orchestration, fix lists, suppressions, and per-project profiles. Inventories the repo, fetches current best practices live, audits docs and code against versioned rule catalogs, and produces actionable upgrade plans.",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/tsebavery/project-readiness-plugin.git"
-      },
-      "version": "1.2.0",
-      "author": {
-        "name": "Joshua Stearns",
-        "email": "joshua.d.stearns@gmail.com"
-      },
-      "homepage": "https://github.com/tsebavery/project-readiness-plugin",
-      "repository": "https://github.com/tsebavery/project-readiness-plugin",
-      "license": "MIT",
-      "category": "workflow",
-      "keywords": [
-        "readiness",
-        "assessment",
-        "audit",
-        "onboarding",
-        "best-practices",
-        "orchestration",
-        "agents",
-        "skills",
-        "plugins",
-        "docs-audit",
-        "code-audit",
-        "pipeline",
-        "gates"
-      ],
-      "tags": [
-        "workflow",
-        "assessment",
-        "onboarding",
-        "pipeline",
-        "audit"
-      ]
-    },
-    {
       "name": "switch-recon",
       "description": "Industrial managed-switch reconnaissance toolkit. Read-only preflight (host-NIC/route sanity, L2 discovery, firmware-version check) and gated IP provisioning (PROFINET-DCP Set-IP / DHCP), then a 12-phase pipeline (intake, research, web-UI crawl, scan-discovery, scan-deep, test-plan, test-execute, security-analysis, audit-quality, docs, code, package) for managed Ethernet switches: SNMP v1/v2c/v3 full-MIB walk, SSH/CLI automation, HTTP/HTTPS web-UI + REST crawl, NETCONF/RESTCONF/gNMI, L2 discovery (LLDP/STP/VLAN/LACP/MAC-FDB), and PROFINET DCP + EtherNet/IP CIP identity. Vendor-agnostic; generates Mermaid diagrams, a file://-safe HTML config browser, an MCP server, a CLI, and a Rust crate. Lab/test devices only.",
       "source": {
